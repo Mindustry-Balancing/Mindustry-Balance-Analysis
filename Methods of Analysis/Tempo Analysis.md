@@ -22,6 +22,17 @@ Build Order
 Tempo
 - The speed and effeciency of an action.
 
+The fundamental thought at play (and why I used this term from chess/turn based games, which is just a turn)
+
+Is that the faster you can get the winning position (enough units to win the game), the more likely you would win.
+
+afterall, it is more better to go cheap so you have more resources to develop
+
+maybe going early agression would go great if you can win asap
+
+and while an attack may be costly, the time needed to rebuild for the opponent might be more "expensive" than your attack, thus overall, the attacker gains tempo and can finish the job with the leading advanatge.
+
+
 (Example, its better to invest on more silicon so that the strategy if reaching Surge is faster).
 
 ... (future section, Modes of Aggression)
