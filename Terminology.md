@@ -1,18 +1,21 @@
 # Terminology
 
 ### Disclaimer
+---
+
 This is just a set of terms/concepts that some I would have created to describe the certain aspects of the game in a concise way.  
 This doesn't cover every topic/term nor some of these terms would be used by other people (hence inside this personal wiki).  
 Still, I will likely use these terms in some of the suggestion posts I generate of in Mindustry Suggestions, or to be used in this Wiki.  
 
 ### General
+---
 
 #### Tempo
 * Refers to the speed and effeciency of a specific players' action.
 * The more effecient a player is maximixing resources, the more tempo or value they have produced compared to low tempo actions.
 
 #### Build Order
-* The order and time on which specific buildings are placed given environmental conditions.
+* From the community, the order and time on which specific buildings are placed given environmental conditions.
 
 #### Pacing
 * Refers to the general progression and speed of a game.
@@ -58,6 +61,7 @@ Still, I will likely use these terms in some of the suggestion posts I generate 
 * For multiplayer, this is what affects certain entities similar to FPS.
 
 ### Unit-Turret (Familiar Background Terms)
+---
 
 #### Damage
 * The amount of hitpoints that will be deducted on an opposing entity.  
@@ -104,6 +108,7 @@ Use the appropriate conversion units, [1 tile/8 world unit] and [1 second/60 tic
 `speed(code) [world unit/tick] * [60 tick/1 second] * [1 tile/8 world unit] -> speed(code) * 60/8 [tile/second] -> speed(code)*7.5 in tiles per second.`
 
 ### Unit-Turret
+---
 
 #### Wreck Health
 * When an air unit dies, it leaves a "wreck" that can absorb damage with its health.
@@ -153,6 +158,7 @@ Use the appropriate conversion units, [1 tile/8 world unit] and [1 second/60 tic
 * A general measurement of unit agression.
 
 ### Economical and Value
+---
 
 #### Yield
 *output/sec (ips, i/s; lu/s; pu/s; etc.)*
