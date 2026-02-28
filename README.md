@@ -1,4 +1,6 @@
 # Mindustry Balance Analysis
+[Made by Someone's Shadow]
+
 A repository made to document problem sets, mechanics, and specific analysis for referencing in suggestions, prs, or general discussion.  
 ...It's still in the works, todos, and whatnot, so its not finished and mainly empty
 
