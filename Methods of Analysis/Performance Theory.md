@@ -3,7 +3,7 @@ The branch that deals with how the performance of turrets and units is measured.
 
 Under this branch, multiple statistics on content are utilized such as DPS, Vitality, TTK, DFD, DPI, Upfront Cost, Production Cost and many more which are used to compare and evaluate how a specific piece of content performs. This is the blood on how turrets or units are compared.
 
-This does not account for pacing and eco, which is under Tempo Analysis, which varies map to map or even gamemode to gamemode. _[See Tempo Analysis]()_
+This does not account for pacing and eco, which is under Tempo Analysis, which varies map to map or even gamemode to gamemode. _[See Tempo Analysis](https://github.com/Mindustry-Balancing/Mindustry-Balance-Analysis/blob/main/Methods%20of%20Analysis/Tempo%20Analysis.md)_
 
 ---
 
