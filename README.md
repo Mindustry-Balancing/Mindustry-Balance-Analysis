@@ -1,7 +1,8 @@
 # Mindustry Balance Analysis
 [Made by Someone's Shadow]
 
-A repository made to document problem sets, mechanics, and specific analysis for referencing in suggestions, prs, or general discussion.  
+A repository made to document problem sets, mechanics, and specific analysis for referencing in suggestions, prs, or general discussion. A repository used in #balancing in The Official Mindustry Discord Server.
+
 ...It's still in the works, todos, and whatnot, so its not finished and mainly empty
 
 Yeah this is mostly in the works but ill try to finish it
