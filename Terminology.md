@@ -133,6 +133,10 @@ Use the appropriate conversion units, [1 tile/8 world unit] and [1 second/60 tic
 * A general measure of the survivability of a unit when getting into range.
 * Divide it by the defensive dps to calculate the tiles a unit can travel.
 
+#### Mobility
+* A more general term for the manuverability and flexibility of a unit.
+* Proportional to speed and agility.
+
 #### Distance from Defense (DFD) 
 *tiles* `[DefenseRange - GroupVitality/TotalDefenseDPS]`
 * The distance where a group of units died, a general measurement that takes into account the effect of range with dps.
@@ -143,6 +147,10 @@ Use the appropriate conversion units, [1 tile/8 world unit] and [1 second/60 tic
 
 #### Mode of Agression (MoA)
 * A specific type of role that revolves around when and where a unit can be effective when it comes to dealing damage.
+
+#### Chokepoint / Coverage Number
+* The number of built defenses needed to break even with the net cost of the units.
+* A general measurement of unit agression.
 
 ### Economical and Value
 
