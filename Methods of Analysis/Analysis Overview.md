@@ -1,10 +1,10 @@
 # Overview
 
-- **Performance Theory** [🔗](https://github.com/SomeonesShade/Mindustry-Balance-Analysis/blob/main/Methods%20of%20Analysis/Performance%20Theory.md) - How well a piece of content performs at a specific moment in time.
+- **Performance Theory** [🔗](https://github.com/Mindustry-Balancing/Mindustry-Balance-Analysis/blob/main/Methods%20of%20Analysis/Performance%20Theory.md) - How well a piece of content performs at a specific moment in time.
  
-- **Tempo Analysis** [🔗](https://github.com/SomeonesShade/Mindustry-Balance-Analysis/blob/main/Methods%20of%20Analysis/Tempo%20Analysis.md) - The general analysis of how players decide what content to utilize across the entire playthrough. Determines tech levels.
+- **Tempo Analysis** [🔗](https://github.com/Mindustry-Balancing/Mindustry-Balance-Analysis/blob/main/Methods%20of%20Analysis/Tempo%20Analysis.md) - The general analysis of how players decide what content to utilize across the entire playthrough. Determines tech levels.
 
-- **The Implementation Problem** [🔗](https://github.com/SomeonesShade/Mindustry-Balance-Analysis/blob/main/Methods%20of%20Analysis/The%20Implementation%20Problem.md) - How to handle, categorize, and adress concerns or feedback as well as chosing the optimal solution based on implementation concerns.
+- **The Implementation Problem** [🔗](https://github.com/Mindustry-Balancing/Mindustry-Balance-Analysis/blob/main/Methods%20of%20Analysis/The%20Implementation%20Problem.md) - How to handle, categorize, and adress concerns or feedback as well as chosing the optimal solution based on implementation concerns.
 
 ## TODO
   - **Counterbalance Theory** [🔗]() - _(Subdiscipline)_ How to rework content.  
