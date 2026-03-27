@@ -1,12 +1,16 @@
 Stuff Todo
 
 - Preface
-- Introduction
 - Table of Contents
 
-- Unit I: Performance Theory
-  - Chapter 1: Fundamentals of Turrets and Units
-    - Section 1: Mindustry and Classical Stats
+- Introduction
+  - Part 1: What is a "Mindustry"?
+  - Part 2: The Act and Purpose of Balancing
+  - Part 3: Community and Subjectiveness
+ 
+- Unit I: Performance Theory for Turrets
+  - Chapter 1: Fundamentals of Turrets
+    - Section 1: Classical Stats
     - Section 2: The Defintion of Performance
     - Section 3: DPS Dynamics
     - Section 4: Range, Vitality, and DFD
@@ -22,6 +26,13 @@ Stuff Todo
     - Section 3: Weakness Coverage and Turret Mix-ups
     - Section 4: Synergy and Status Effects
     - Experimental Methodology
-- Unit II: Tempo and Valuation Theory
 
-- Unit III: Unit-Turret Balancing
+- Unit II: Performance Theory for Units
+
+- Unit III: Tempo and Valuation Theory
+
+- Unit IV: Unit-Turret Balancing
+
+- Unit V: Production Balancing
+
+- Unit VI: The Implementation Problem
