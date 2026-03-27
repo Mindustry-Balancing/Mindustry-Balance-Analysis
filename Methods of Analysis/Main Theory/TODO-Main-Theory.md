@@ -36,3 +36,5 @@ Stuff Todo
 - Unit V: Production Balancing
 
 - Unit VI: The Implementation Problem
+
+- Unit VII: Extras with Potential Dynamics
