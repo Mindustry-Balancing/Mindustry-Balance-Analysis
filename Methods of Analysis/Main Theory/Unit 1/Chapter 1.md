@@ -40,6 +40,9 @@ It is also important to define the specific characteristics of a unit, while it 
 3. Range
 4. Speed
 - This specific stat is a major aspect in unit performance, and would be a consideration in further turret analysis.
+5. Armor
+- Another stat that is important, subtracts recieved damage by this amount.
+- For Serpulo, it is the primary way to force better turrets without high health rates to compensate. 
 
 ### Section 2: DPS and The Defintion of Performance
 
@@ -117,6 +120,14 @@ However, the next questions are important to ponder on.
 These questions leads our analysis to the next sections on how we would predict DFD scores and how DPS still plays a key role even if it isn't the entire picture.
 
 ### Section 4: DPS-Range and Vitality.
+
+To motivate the following stats, lets get ourselves into a scenario.
+
+Suppose you have 2 sets, one containing a turret with 1 dps and 1 unit of range, and another with 0.5 dps and 2 units of range; both encounter the same type of unit. 
+
+[Image]
+
+
 
 ### Section 5: DPS and Vitality Stages.
 
