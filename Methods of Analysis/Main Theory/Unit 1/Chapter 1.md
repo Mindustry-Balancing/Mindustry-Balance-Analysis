@@ -252,6 +252,7 @@ If you are able to compute the break even point in distance, you can roughly eye
 - Hail vs Salvo
 - Spectre vs Meltdown
 - Swarmer vs Cyclone
+
 If we ignore costs and scale eveyrthing up appropriately (See Chapter 4 for an overview and Unit III. for specifics)
 
 With the computed take over time, there is now enough information to know when a turret with known dps and range can be better than another turret with its own dps and range. That concludes this Chapter and we will be moving into Chapter 2 in determining dps when it isn't easy to compute.
