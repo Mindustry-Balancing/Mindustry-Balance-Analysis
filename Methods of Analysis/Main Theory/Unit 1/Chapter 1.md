@@ -96,6 +96,7 @@ Let's set an example to see how this value may be a good indicator of performanc
 Suppose you have 2 scenarios, each with one turret and one unit. 
 - There are two seperate turrets with varying ranges and dps.
 - Both encounter the same unit approaching the turrets.
+
 While the turrets may have different ranges and dps values, let's look at the DFD scores made from the scenarios.
 
 (insert video)
