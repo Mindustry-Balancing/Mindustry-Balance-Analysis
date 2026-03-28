@@ -258,6 +258,8 @@ If we ignore costs and scale eveyrthing up appropriately (See Chapter 4 for an o
 With the computed take over time, there is now enough information to know when a turret with known dps and range can be better than another turret with its own dps and range. That concludes this Chapter and we will be moving into Chapter 2: what happens if there is more than one unit?
 
 (TODO Notes, Section 4 needs more explanation on how the range part, for specific units the effective range, eff. range = range - blocks - unit range as during the pioneering stages, i have always assumed unit range = 0, and negligable wall effects, or just needs more interpretation, it may honestly needs to be split up into 2 with the introduction and interpretation of DFD Analysis. Since this is very much into the deep end.)
+
 (TODO, need to actually have more examples on how this is useful? We haven't actually talked about specific turrets yet until the last part lmao.
 
+(TODO oh right uh for the first TODO, you need to explictly say when DFD no longer works (limitations), usually when a unit stops, the distance no longer encodes damage recieved, and other stuff)
 ### Experimental Methodology
