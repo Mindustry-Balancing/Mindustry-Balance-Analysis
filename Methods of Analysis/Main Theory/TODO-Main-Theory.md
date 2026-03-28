@@ -12,8 +12,7 @@ Stuff Todo
   - Chapter 1: Fundamentals of Turrets
     - Section 1: Classical Stats
     - Section 2: The Defintion of Performance
-    - Section 3: DPS Dynamics
-    - Section 4: Range, Vitality, and DFD
+    - Section 3: Range, Vitality, and DFD
     - Experimental Methodology
   - Chapter 2: Turret Variations
     - Section 1: AoE, Piercing, and the Target Count Coeffecient
