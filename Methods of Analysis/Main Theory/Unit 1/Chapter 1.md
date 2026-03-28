@@ -123,11 +123,65 @@ These questions leads our analysis to the next sections on how we would predict 
 
 To motivate the following stats, lets get ourselves into a scenario.
 
-Suppose you have 2 sets, one containing a turret with 1 dps and 1 unit of range, and another with 0.5 dps and 2 units of range; both encounter the same type of unit. 
+Suppose you have 2 sets, one containing a turret with 1 dps and 10 tiles of range, and another with 0.5 dps and 20 tiles of range; both encounter the same type of unit with 1 health and 10 tiles/second. Let us assume that the turrets have to start from 0 reload.
 
 [Image]
 
+From the given, how far would the unit go?
 
+In this case, it would be simply the amount of time the unit was alive times the speed of the unit.
+
+```
+Tiles Travelled = TTK * Speed
+Tiles Travelled = (Health / DPS) * Speed
+Tiles Travelled = Speed * Health / DPS
+```
+
+Now, Speed * Health has a special name and it is something I've made due to how important of a concept it is. That quantity is called **Vitality**.
+
+Let's calulate the amount tiles travelled for both scenarios.
+
+```
+(10 tiles/second * 1 hp) = 10 Vitality
+Tiles Travelled of A = 10 tiles = 10 Vit / 1 dps 
+Tiles Travelled of B = 20 tiles = 10 Vit / 0.5 dps
+```
+
+Because of the reduced dps of scenario B, the unit travelled double the distance.
+
+[image]
+
+However, as shown, both die in the same place. That's because the turret in scenario B shot earlier. That's because to compute for the DFD...
+
+```
+DFD = Range - Tiles Travelled
+DFD of A = 0 = 10 - 10
+DFD of B = 0 = 20 - 20
+```
+
+So... what happens if the vitality of unit has been reduced to 5? What are the DFD scores then?
+
+Well...
+
+```
+DFD = Range - Vitality/DPS
+DFD of A = 5 = 10 - 5 / 1
+DFD of B = 10 = 20 - 5 / 0.5
+```
+
+[image]
+
+In this case, the turret with the higher range performed better by keeping the unit away as much as possible.
+
+With how the formula behaves, it seems like Scenario B's turret will always have better DFD Scores than the turret in Scenario A. Thus we can say that, for this type of measurement, the double range but half dps turret is better.
+
+But with how I setted up the scenario, something special had happened. Since I divided the vitality by 2, somehow the DFD values relative to the range has also been reduced by half. 
+
+Let's compare two turrets that are much more complicated. 
+
+(Continue Draft, Lead up to DPS-Range by checking where the break point where one turret is better than the other, and look more into better predictions.)
+
+(Final part, lets lead back into DPS as we ask the question, what happens when the unit gets in range again? DPS and Vitality Stages finally describe the full system.)
 
 ### Section 5: DPS and Vitality Stages.
 
