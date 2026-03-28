@@ -112,7 +112,7 @@ There we go! We now have managed to make a comparative statement between 2 turre
 
 However, the next questions are important to ponder on.
 - Does one DFD score comparison, always predict that one turret is better than another in all scenarios?
-- How can we predict DPS scores in advance to reduce required testing?
+- How can we predict DFD scores in advance to reduce required testing?
 
 These questions leads our analysis to the next sections on how we would predict DFD scores and how DPS still plays a key role even if it isn't the entire picture.
 
