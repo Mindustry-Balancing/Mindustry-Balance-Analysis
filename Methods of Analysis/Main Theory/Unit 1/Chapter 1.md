@@ -122,6 +122,13 @@ These questions leads our analysis to the next sections on how we would predict 
 ### Section 4: DPS-Range and Vitality.
 
 To motivate the following stats, lets get ourselves into a scenario.
+We have two different turrets facing against the same unit. Let's run the scenario with one unit with 1x hp, and then another with 2x hp.
+
+[Video]
+
+[Video]
+
+This seems to be a very complicated situation, why is there two different results on which is more perfomant even if the turrets are the same? To answer this requires further analysis and another scenario is needed to explore.
 
 Suppose you have 2 sets, one containing a turret with 1 dps and 10 tiles of range, and another with 0.5 dps and 20 tiles of range; both encounter the same type of unit with 1 health and 10 tiles/second. Let us assume that the turrets have to start from 0 reload.
 
@@ -137,7 +144,7 @@ Tiles Travelled = (Health / DPS) * Speed
 Tiles Travelled = Speed * Health / DPS
 ```
 
-Now, Speed * Health has a special name and it is something I've made due to how important of a concept it is. That quantity is called **Vitality**.
+Now, Speed * Health has a special name and it is something I've coined due to how important of a concept it is. That quantity is called **Vitality**. It is defined as the overall capability of a unit to reach a given destination when being actively damaged.
 
 Let's calulate the amount tiles travelled for both scenarios.
 
@@ -177,12 +184,30 @@ With how the formula behaves, it seems like Scenario B's turret will always have
 
 But with how I setted up the scenario, something special had happened. Since I divided the vitality by 2, somehow the DFD values relative to the range has also been reduced by half. 
 
-Let's compare two turrets that are much more complicated. 
+Returning to the original situation, we can actually use the given equations to predict DFD scores as a measure of vitality. Plotting the graph produced shows an intersection.
 
-(Continue Draft, Lead up to DPS-Range by checking where the break point where one turret is better than the other, and look more into better predictions.)
+[Image]
 
-(Final part, lets lead back into DPS as we ask the question, what happens when the unit gets in range again? DPS and Vitality Stages finally describe the full system.)
+Everything before the intersection, the first turret (in blue) dominates and is more performative, but everything after the second turret (in red) is now the bettter option. 
+> This is an interesting dynamic that is more extensively explored in Chapter 3 as multiple turrets have different ranges depending on position. 
 
-### Section 5: DPS and Vitality Stages.
+There is a quick way to judge if such an interesction occurs and the overall power of a turret when taking into account DPS and Range in this scenario. Taking the original equation show cases the following.
+
+```
+DFD = Range - Vitality/DPS
+DFD/Range = 1 - Vitality/(DPS * Range)
+```
+
+The DPS-Range now exists as a quantity, this is used to determine how effective a turret can prevent a unit from getting close. After some invetigations with the graph here are the results.
+1. If the DPS-Range of two turrets are the same, the one with the longer range will always have higher DFD Scores than the other.
+2. If the DPS-Range of the shorter ranged turret is bigger than the other, there is a point in the path of a unit where the close ranged turret takes over as being better. This occurs as the unit's Vitality increases.
+
+With that, that is most of DFD Analysis has been covered. There is one very important thing to consider.
+- Eventually, the unit will get in range and be able to fire.
+- At this point, range no longer matters at this specific point and only DPS takes over.
+
+In the last section, there will be an exploration on how the two seperate stages of a unit's journey affect how a turret performs. Forming a complete picture.
+
+### Section 5: DPS and Vitality Stages
 
 ### Experimental Methodology
