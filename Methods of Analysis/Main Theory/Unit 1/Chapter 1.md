@@ -1,5 +1,5 @@
 # Unit I
-## Chapter 1: Fundamentals of Turrets
+## Chapter 1: Fundamentals of Singleton Turrets
 
 ### Section 1: Classical Stats of Turrets and Units
 
@@ -209,5 +209,54 @@ With that, that is most of DFD Analysis has been covered. There is one very impo
 In the last section, there will be an exploration on how the two seperate stages of a unit's journey affect how a turret performs. Forming a complete picture.
 
 ### Section 5: DPS and Vitality Stages
+
+There are two distinct stages of a unit, and the performance of a turret may vary as the unit gets closer.
+1. The Vitality Stage
+- This is the stage where a unit has to travel to get close and is where the turret is at its most advantageous.
+- It is determined entirely by Range and DPS-Range as it attacks the Vitality of a unit.
+2. The DPS Stage
+- This is the stage where a unit is now able to fire and deal damage.
+- TTK and therefore DPS are the main determinants as it attacks only the Health of a unit.
+
+For the first stage, as discussed extensively in Section 4, the main way to determine performance is through DFD and directly via DPS-Range. However, in the second stage, the turret has gotten close and all that is needed is to kill it immediately and higher DPS is required.
+
+So when does a turret specifically becomes better or worse as the two stages are switched with each other?
+
+First, there is a need for the following quantity:
+- Upfront Damage, the amount of damage recieved during the entire Vitality Stage.
+- Can be computed by multiplying the amount of time to travel the distance and the DPS.
+
+```
+Upfront Damage = DPS * Time to Travel
+Upfront Damage = DPS * (Range - Unit Range) / Speed
+Upfront Damage = (DPS-Range - tDPS-uRange) / Speed
+```
+
+Next, finally two lines are made.
+
+```
+Low Range Turret Damage = DPS_lowrange * t
+High Range Turret Damage = Upfront Damage + DPS_highrange * t
+
+Intersection:
+
+(DPS_l - DPS_h) * t = Upfront Damage
+t = Upfront Damage / Difference in DPS
+
+Converting this into a form of distance for DFD Analysis in the persepctive of the low range turret.
+
+DFD to Break Even = Range - Speed * t.
+```
+
+If you are able to compute the break even point in distance, you can roughly eyeball when you may want to use a different option. Examples may include... 
+- Hail vs Salvo
+- Spectre vs Meltdown
+- Swarmer vs Cyclone
+If we ignore costs and scale eveyrthing up appropriately (See Chapter 4 for an overview and Unit III. for specifics)
+
+With the computed take over time, there is now enough information to know when a turret with known dps and range can be better than another turret with its own dps and range. That concludes this Chapter and we will be moving into Chapter 2 in determining dps when it isn't easy to compute.
+
+(TODO Notes, Section 4 needs more explanation on how the range part, for specific units the effective range, eff. range = range - blocks - unit range as during the pioneering stages, i have always assumed unit range = 0, and negligable wall effects, or just needs more interpretation, it may honestly needs to be split up into 2 with the introduction and interpretation of DFD Analysis. Since this is very much into the deep end.)
+(TODO, need to actually have more examples on how this is useful? We haven't actually talked about specific turrets yet until the last part lmao.
 
 ### Experimental Methodology
