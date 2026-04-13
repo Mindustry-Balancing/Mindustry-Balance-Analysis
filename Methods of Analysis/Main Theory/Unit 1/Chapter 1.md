@@ -111,7 +111,7 @@ Suppose you have 2 scenarios, each with one turret and one unit.
 
 While the turrets may have different ranges and dps values, let's look at the DFD scores made from the scenarios.
 
-[![Video](https://github.com/Mindustry-Balancing/Mindustry-Balance-Analysis/blob/main/Methods%20of%20Analysis/Main%20Theory/Videos/black%20image.png)](https://github.com/Mindustry-Balancing/Mindustry-Balance-Analysis/blob/main/Methods%20of%20Analysis/Main%20Theory/Videos/U1C1%20-%202%20turrets%20comparison.mp4)
+[![Video](https://img.youtube.com/vi/V0IM3Z4ShJM/0.jpg)](https://youtu.be/V0IM3Z4ShJM)
 
 - The bottom turret has a better DFD score than the top turret: the unit was killed at a greater distance than the other.
 - Due to this, it is very likely that the first turret would have reduced or even prevented any recieved damage.
