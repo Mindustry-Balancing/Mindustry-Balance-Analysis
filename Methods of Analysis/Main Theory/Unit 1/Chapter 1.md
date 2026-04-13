@@ -1,9 +1,18 @@
 # Unit I
 ## Chapter 1: Fundamentals of Singleton Turrets
 
+### Chapter Overview
+
+This chapter explores the basics on how single turrets with known metrics such as DPS and Range peform against single units. 
+- **Section 1: "Classical Stats of Turrets and Units"** details the background for what metrics are being used such as health, DPS or range.
+- **Section 2: "DPS and The Defintion of Performance"** now describes what it even means for something to be "good."
+- **Section 3: Range Dynamics and DFD Analysis** now puts space in consideration, as turrets and units have to get close to interact.
+- **Section 4: DPS-Range and Vitality** formalizes how range is involved against units with health and speed.
+- **Section 5: DPS and Vitality Stages** details how different turrets may be appropriate depending on the circumstances.
+
 ### Section 1: Classical Stats of Turrets and Units
 
-Like most turret defense games feature feature stats that describe how the turret operates. A turret in mindustry generally has the following properties.
+Most turret defense games feature feature stats that describe how the turret operates. A turret in mindustry generally has the following properties.
 
 1. Health
 - All buildings and units in Mindustry features health. 
@@ -119,7 +128,7 @@ However, the next questions are important to ponder on.
 
 These questions leads our analysis to the next sections on how we would predict DFD scores and how DPS still plays a key role even if it isn't the entire picture.
 
-### Section 4: DPS-Range and Vitality.
+### Section 4: DPS-Range and Vitality
 
 To motivate the following stats, lets get ourselves into a scenario.
 We have two different turrets facing against the same unit. Let's run the scenario with one unit with 1x hp, and then another with 2x hp.
