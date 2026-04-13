@@ -3,7 +3,7 @@
 
 ### Chapter Overview
 
-This chapter explores the basics on how single turrets with known metrics such as DPS and Range peform against single units. 
+This chapter explores the basics on how single turrets with known metrics such as DPS and Range peform against single units.
 - **Section 1: "Classical Stats of Turrets and Units"** details the background for what metrics are being used such as health, DPS or range.
 - **Section 2: "DPS and The Defintion of Performance"** now describes what it even means for something to be "good."
 - **Section 3: Range Dynamics and DFD Analysis** now puts space in consideration, as turrets and units have to get close to interact.
@@ -12,7 +12,7 @@ This chapter explores the basics on how single turrets with known metrics such a
 
 ### Section 1: Classical Stats of Turrets and Units
 
-Most turret defense games feature feature stats that describe how the turret operates. A turret in mindustry generally has the following properties.
+Most turret defense games feature feature stats that describe how the turret operates. If you had played Mindustry in its first levels, these metrics may be familiar. A turret in mindustry generally has the following properties.
 
 1. Health
 - All buildings and units in Mindustry features health. 
@@ -35,7 +35,7 @@ DPS = Damage * Firerate
 ```
 
 5. Range
-- It is defined as the distance from the turret where it can deal daamge towards any enemy object.
+- It is defined as the distance from the turret where it can deal damage towards any enemy object.
 - It is measured in tiles.
 - This gives turrets a sense of space and will be the source of many analyses.
 - It is equally as important as DPS when considering which turret to use.
